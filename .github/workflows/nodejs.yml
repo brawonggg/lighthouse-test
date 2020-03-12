@@ -19,5 +19,5 @@ jobs:
         run: |
           npm install -g @lhci/cli@0.3.x
           npm install @lhci/server
-          lhci autorun assert --config=lighthouserc.json --upload.target=temporary-public-storage || echo "LHCI failed!"
+          lhci autorun --config=./lighthouserc.json --collect.numberOfRuns=2 --upload.target=temporary-public-storage || echo "LHCI failed!"
 
