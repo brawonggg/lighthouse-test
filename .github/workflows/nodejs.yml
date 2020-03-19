@@ -19,6 +19,8 @@ jobs:
         run: |
           npm install
           npm run build
+        env: |
+          LHCI_GITHUB_APP_TOKEN: 9XvOj4HER7J:7422004:rv9iBeEaanxIr
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.3.x
