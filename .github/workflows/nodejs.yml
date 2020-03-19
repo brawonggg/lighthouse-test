@@ -20,5 +20,5 @@ jobs:
         run: |
           npm install -g @lhci/cli@0.3.x
           npm install @lhci/server
-          lhci autorun --assert.preset=lighthouse:all --LHCI_GITHUB_APP_TOKEN: 9XvOj4HER7J:7422004:rv9iBeEaanxIr --config=lighthouserc.json --collect.numberOfRuns=2 --upload.target=temporary-public-storage || echo "LHCI failed!"
+          lhci autorun --assert.preset=lighthouse:all --LHCI_GITHUB_APP_TOKEN: 9XvOj4HER7J:7422004:rv9iBeEaanxIr --config=lighthouserc.json --collect.numberOfRuns=2 --upload.target=temporary-public-storage --upload.githubToken = 9XvOj4HER7J:7422004:rv9iBeEaanxIr --upload.githubAppToken = 9XvOj4HER7J:7422004:rv9iBeEaanxIr || echo "LHCI failed!"
 
