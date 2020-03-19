@@ -11,6 +11,7 @@ jobs:
         with:
           node-version: 10.x
           configPath: ./lighthouserc.json
+          LHCI_GITHUB_APP_TOKEN: 9XvOj4HER7J:7422004:rv9iBeEaanxIr
       - name: npm install, build
         run: |
           npm install
