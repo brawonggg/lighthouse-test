@@ -1,9 +1,12 @@
+
 name: Build project and Run Lighthouse CI
 on: [push]
 jobs:
   lhci:
     name: Lighthouse CI
     runs-on: ubuntu-latest
+    env: 
+          -LHCI_GITHUB_APP_TOKEN: 9XvOj4HER7J:7422004:rv9iBeEaanxIr
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js 10.x
