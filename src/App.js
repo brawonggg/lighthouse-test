@@ -5,11 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <heading>THIS IS THE HEADING THEA DJHFKSAHFJSIDFJS FJKSDH FJKSDHFJKSH FJKF SKH JK</heading>
+      <heading>*******************************</heading>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. lk;gdl;fkgdl;f'k
         </p>
         <a
           className="App-link"
