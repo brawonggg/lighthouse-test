@@ -1,7 +1,6 @@
 {
-  "ci": {kjksdj kskjdskl
+  "ci": {
     "assert": {
-      "preset": "lighthouse:recommended",
       "assertions": {
         "first-contentful-paint": ["error", { "minScore": 2.6 }],
         "uses-responsive-images": "error",
